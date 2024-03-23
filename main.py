@@ -1,7 +1,7 @@
 import pandas as pd
 from redis import Redis
-import task1
-import task2
+import price_updater
+import stock_performance_calculation
 
 
 class program:
