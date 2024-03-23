@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 import time
 from threading import Thread
-from utilz import stock_last_info, show_stocks_in_redis
+from utils import stock_last_info, show_stocks_in_redis
 
 
 def calculate_performance(stock_price):
