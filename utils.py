@@ -1,7 +1,7 @@
 from datetime import datetime
 
 
-class stock_last_info:
+class stock_last_product:
     def __init__(self, time_stock='0:0:0', price_stock=0):
         self.time = datetime.strptime(time_stock, '%H:%M:%S').time()
         self.price = price_stock
