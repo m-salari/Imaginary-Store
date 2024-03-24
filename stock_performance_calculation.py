@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 import time
 from threading import Thread
-from utils import stock_last_info, show_stocks_in_redis
+from utils import stock_last_product, show_stocks_in_redis
 
 
 def calculate_performance(stock_price):
@@ -13,9 +13,9 @@ def calculate_performance(stock_price):
 class stock_performance_calculation:
     def __init__(self, server):
         self.server = server
-        self.stock1 = stock_last_info()
-        self.stock2 = stock_last_info()
-        self.stock3 = stock_last_info()
+        self.stock2 = stock_last_product()
+        self.stock3 = stock_last_product()
+        self.stock1 = stock_last_product()
         self.lst_stock = [self.stock1, self.stock2, self.stock3]
         # create backup stocks nodes for comparison
 
