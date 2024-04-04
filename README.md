@@ -1,5 +1,5 @@
 # Imaginary Store
 
 ```
-this django app is a panel for user managment and makes possible for users purchasing from store (API).
+This django app is a panel for user management and makes possible for users purchasing from store (API).
 ```
